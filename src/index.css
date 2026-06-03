@@ -1,0 +1,22 @@
+
+@import "tailwindcss";
+
+
+* {
+  cursor: url("/icons8-butterfly-16.png"), auto;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+}
