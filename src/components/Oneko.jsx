@@ -1,6 +1,6 @@
 import  { useEffect } from "react";
 
-const nekoSpriteBase64 ='./oneko.gif'
+const nekoSpriteBase64 = "/oneko.gif";
 
 const Oneko = () => {
   useEffect(() => {
