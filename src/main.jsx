@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Oneko from "./components/Oneko.jsx";
 import Chatbot from './Chatbot.jsx'
-import Header from './components/Header.jsx'
+
 
 import About from './components/About'
 import SkillCard from './components/SkillCard.jsx'
