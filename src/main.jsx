@@ -13,7 +13,6 @@ import Contacts from './components/Contacts.jsx'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Header />
     <About />
     <SkillCard />
     <Oneko />
