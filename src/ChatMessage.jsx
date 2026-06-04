@@ -1,6 +1,5 @@
 // ChatMessage.jsx
-
-import React, { forwardRef } from "react";
+import  { forwardRef } from "react";
 import ReactMarkdown from "react-markdown";
 import { motion } from "framer-motion";
 
@@ -33,7 +32,7 @@ const ChatMessage = forwardRef(({ message, role, loading }, ref) => {
       {role === "bot" && (
         <div className="message-avatar">
           <img
-            src="/chat-avatar.png"
+            src="/paw1.png"
             alt="Bot Avatar"
           />
         </div>

@@ -299,9 +299,10 @@ const data = JSON.parse(responseText);
             )}
 
             <div className="chatbot-avatar">
-              <img className="rounded-full"
-                src="./paw.svg"
-                alt="Chatbot"
+              <img
+              className="rounded-full"
+              src="/paw.svg"
+              alt="Chatbot"
               />
             </div>
           </motion.div>
