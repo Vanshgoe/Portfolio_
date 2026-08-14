@@ -44,20 +44,22 @@ export default function Chatbot() {
     }, 100);
   }, [messages, loading, open]);
 
-  const initializeSession = async () => {
-    try {
-      const existingSession =
-        localStorage.getItem("chat_session_id");
+ const initializeSession = async () => {
+  try {
+    const existingSession = localStorage.getItem(
+      "chat_session_id"
+    );
 
-      if (existingSession) {
-        setSessionId(existingSession);
-      } else {
-        await createNewSession();
-      }
-    } catch (err) {
-      console.error(err);
+    if (existingSession) {
+      setSessionId(existingSession);
+      return;
     }
-  };
+
+    await createNewSession();
+  } catch (err) {
+    console.error("Session initialization failed:", err);
+  }
+};
 
   const createNewSession = async () => {
     try {
@@ -142,7 +144,7 @@ export default function Chatbot() {
       const welcomeMessage = {
         role: "bot",
         text:
-          "🐱 I'm Arui, Vansh's cat. Curious about his work? Ask away!",
+          "🐱 I'm Gippity, Vansh's cat. Curious about his work? Ask away!",
         timestamp: new Date().toISOString(),
       };
 
@@ -336,7 +338,7 @@ const data = JSON.parse(responseText);
           >
             <div className="chatbot-header">
               <div>
-                <h3>Auri</h3>
+                <h3>Gippity</h3>
                 <small>Online • Ask me anything about Vansh</small>
               </div>
 

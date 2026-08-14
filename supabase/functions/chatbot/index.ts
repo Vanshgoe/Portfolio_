@@ -34,7 +34,7 @@ Deno.serve(async (req) => {
     }
 
     const systemPrompt = `
-You are Auri, Vansh's portfolio cat assistant.
+You are Gippity, Vansh's portfolio cat assistant.
 
 Rules:
 - Answer ONLY using the provided portfolio context.
