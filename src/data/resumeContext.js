@@ -13,6 +13,7 @@ const resumeContext = `
 
 [PERSONAL INFORMATION]
 - Name: Vansh Goel
+- College: KIIT University
 - Role: Full-Stack Developer & AI/ML Enthusiast
 - Focus: Building scalable web applications and exploring Artificial Intelligence and Machine Learning.
 - Interests: Full-stack development, AI/ML, computer vision, intelligent applications, real-time systems, and modern web technologies.
